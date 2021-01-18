@@ -4,8 +4,7 @@ import time
 import requests
 nitro= input("enter link")
 
-        nitro = line.strip("nitro")
-
+        
         url = nitro + "?with_application=false&with_subscription_plan=true"
 
         r = requests.get(url)
