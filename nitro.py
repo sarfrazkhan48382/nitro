@@ -21,4 +21,4 @@ input("4")
 input("3")
 input("2")
 input("1")
-© 2021 GitHub, Inc.
+
