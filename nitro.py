@@ -3,8 +3,7 @@ import webbrowser
 import time
 import requests
 nitro= input("enter link")
-with open("Nitro Codes.txt") as f:
-    for line in f:
+
         nitro = line.strip("nitro")
 
         url = nitro + "?with_application=false&with_subscription_plan=true"
